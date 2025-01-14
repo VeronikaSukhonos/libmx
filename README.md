@@ -1,7 +1,7 @@
 <h1 align="center">Libmx</h1>
 
 <p><b>Date:</b> September 2024.</p>
-<p><b>Libmx</b> is a library of useful functions in C developed during Track C, the second stage of the <a href="https://campus.kpi.kharkov.ua/en/" target="_blank"><b>Innovation Campus</b></a> educational program.</p>
+<p><b>Libmx</b> is a library of useful functions in C developed during Track C, the second stage of the <a href="https://campus.kpi.kharkov.ua/en/"><b>Innovation Campus</b></a> educational program.</p>
 
 <p><b>The library includes:</b></p>
 <ul>
@@ -19,7 +19,7 @@
 <h2 align="center">Functions</h2>
 
 <h3 id="utils">Utils pack:</h3>
-<table width="100%">
+<table>
 <tr>
 <td><b>mx_printchar</b></td>
 <td>outputs a single character to the stdout</td>
@@ -79,7 +79,7 @@
 </table>
 
 <h3 id="string">String pack:</h3>
-<table width="100%">
+<table>
 <tr>
 <td><b>mx_strlen</b></td>
 <td>calculates the length of a string</td>
@@ -179,7 +179,7 @@
 </table>
 
 <h3 id="memory">Memory pack:</h3>
-<table width="100%">
+<table>
 <tr>
 <td><b>mx_memset</b></td>
 <td>fills a memory area with a constant byte</td>
@@ -228,7 +228,7 @@ typedef struct s_list {
     struct s_list *next;
 } t_list;
 ```
-<table width="100%">
+<table>
 <tr>
 <td><b>mx_create_node</b></td>
 <td>creates a new node of a linked list</td>
@@ -260,7 +260,7 @@ typedef struct s_list {
 </table>
 
 <h3 id="extra">Extra functions:</h3>
-<table width="100%">
+<table>
 <tr>
 <td><b>mx_isdigit</b></td>
 <td>checks if a character is a digit</td>
@@ -299,7 +299,7 @@ typedef struct s_list {
 </tr>
 </table>
 
-> <p>* extra functions that were added to Libmx during working on <a href="https://github.com/VeronikaSukhonos/pathfinder" target="_blank"><b>Pathfinder</b></a>.</p>
+> <p>* extra functions that were added to Libmx during working on <a href="https://github.com/VeronikaSukhonos/pathfinder"><b>Pathfinder</b></a>.</p>
 
 <h2 align="center">Installation & Usage</h2>
 
